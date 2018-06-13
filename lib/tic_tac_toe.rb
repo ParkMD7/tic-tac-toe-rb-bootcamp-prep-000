@@ -142,4 +142,6 @@ def play(board)
     turn(board)
   end
   
+  if winner(board)
+    puts 
 end
