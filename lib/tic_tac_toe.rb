@@ -143,5 +143,7 @@ def play(board)
   end
   
   if winner(board)
-    puts 
+    puts "#{winner(board)} won the game!"
+  elsif draw?(board)
+    puts ""
 end
